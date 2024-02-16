@@ -4,56 +4,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-     <div class="left-container">
-        <div class="logo container">
-            <img src="files/odin-lined.png" alt="">
-            <span>ODIN</span>
-        </div>
-    </div>
-    
-    <div class="right-container">
-        <div class="text">
-            <p>Um texto curto para ilustrar apenas 
-                o exemplo qque aqui esta 
-                fazendo nesse momento right agora</p>
-        </div>
-
-        <form action="#">
-            <div class="content">
-                <div class="row-1">
-                    <label for="first_name">Primeiro Nome:</label>
-                    <input type="text" name="first_name" id="first_name">
-
-                    <label for="last_name">Ultimo Nome: </label>
-                    <input type="text" name="last_name" id="last_name">
-                </div>
-                <div class="row-2">
-                    <label for="email">Email:</label>
-                    <input type="email" name="user_mail" id="email">
-                    
-                    <label for="phone">Telefone: </label>
-                    <input type="tel" name="user_phone" id="phone">
-                </div>
-
-                <div class="row-3">
-                    <label for="password">Senha: </label>
-                    <input type="password" name="user_password" id="password">
-
-                    <label for="confirm-password">Confirme a Senha: </label>
-                    <input type="password" id="confirm-password">
-                </div>
+    <div class="container">
+        <div class="left-hero">
+            <div class="left-content">
+                <img src="files/odin-lined.png" alt="Odin-Logo">
+                <span>ODIN</span>
             </div>
-        </form>
-
-        <div class="login">
-            <button>Create Account</button>
-            <p>Already Have an Account? <a href="">Log In</a></p>
+        </div>    
+             
+        <div class="right-hero">
+            <div class="text">
+                <p>Um texto curto para ilustrar apenas
+                    o exemplo qque aqui esta
+                    fazendo nesse momento right agora</p>
+            </div>
+            <form action="#">
+                <h1>Lets Do This</h1>
+                <div class="form-content">
+                    <div class="row">
+                        <div class="input-group">
+                            <label for="first_name">Primeiro Nome:</label>
+                            <input type="text" name="first_name" id="first_name">
+                        </div>
+                        <div class="input-group">
+                            <label for="last_name">Ultimo Nome: </label>
+                            <input type="text" name="last_name" id="last_name">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-group">
+                            <label for="email">Email:</label>
+                            <input type="email" name="user_mail" id="email">
+                        </div>
+                        <div class="input-group">
+                            <label for="phone">Telefone: </label>
+                            <input type="tel" name="user_phone" id="phone">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-group">
+                            <label for="password">Senha: </label>
+                            <input type="password" name="user_password" id="password">
+                        </div>
+                        <div class="input-group">
+                            <label for="confirm-password">Confirme a Senha: </label>
+                            <input type="password" id="confirm-password">
+                        </div>
+                    </div>
+                </div>
+            </form>
+            
+            <div class="login">
+                <button>Create Account</button>
+                <p>Already Have an Account? <a href="">Log In</a></p>
+            </div>
         </div>
-
-    </div>
+     </div>
 
 </body>
 </html>
